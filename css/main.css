@@ -1,0 +1,60 @@
+
+main {
+    margin: 4%;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Apple Chancery', cursive;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f1e150;
+}
+
+.center {
+    display: none;
+}
+
+#basicCashRegister {
+    display: none;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+#luckyBirthday {
+    display: none;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+input {
+    max-width: 45vw;
+    min-width: 10vw;
+    padding: 0.5rem;
+    font-size: 24px;
+    align-self: center;
+}
+
+button {
+    background-color: #f1e150;;
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
